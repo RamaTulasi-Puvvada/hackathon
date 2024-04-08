@@ -1,0 +1,12 @@
+.navbar{
+    color:green;
+    display:flex;
+    justify-content:space-evenly;
+    }
+    p:hover{
+    color:red;
+    }
+    p:active{
+    color:pink;
+    }
+    

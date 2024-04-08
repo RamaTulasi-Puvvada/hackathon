@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uppercase Text Converter</title>
+    <script>
+        function convertToUppercase() {
+            var text = document.getElementById("text").value;
+            var uppercaseText = text.toUpperCase();
+            document.getElementById("result").innerHTML = "Uppercase Text: " + uppercaseText;
+        }
+    </script>
+</head>
+<body>
+    <h1>Uppercase Text Converter</h1>
+    <label for="text">Enter text:</label>
+    <input type="text" id="text">
+    <button onclick="convertToUppercase()">Convert to Uppercase</button>
+    <p id="result">Uppercase Text: </p>
+</body>
+</html>
+
+
+

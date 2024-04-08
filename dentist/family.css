@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    font-family:Arial;
+    background-color: whitesmoke;
+}
+.nav-bar {
+    display:flex;
+    margin-top: 5px;
+    font-family: Geneva;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 100;
+   margin-left: 20px;
+}
+.main{
+    font-family:Geneva;
+}
+button{
+    background-color: rgb(255, 209, 169);
+    height:40px;
+    border-radius: 25px;
+    width:290px;
+    align-items: center;
+    
+}
+.content{
+    position:relative;
+    top:250px;
+    left:500px;
+    width:500px
+}
+.care{
+    font-family: Georgia;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.btn{
+    font-weight: bold;
+}
+.heading{
+    margin-bottom: 90px;
+    width:500px;
+    font-size: larger;
+    font-family:Geneva ;
+}
+.doctor{
+    float:right;
+    height:400px ;
+    width:400px ;
+}

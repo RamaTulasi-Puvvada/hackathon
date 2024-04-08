@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+body{
+    background-image: url("engage.png");
+    
+}
+.one{
+    display:flex;
+    height:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1.5rem;
+}
+.now{
+    background-color: greenyellow;
+    color:white;
+    align-items:bottom;
+    height:30px;
+    width:120px;
+    align-items: center;
+    border-radius: 30%;
+}
+p{
+    color: white;
+}
